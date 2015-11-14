@@ -139,7 +139,7 @@ article {
   }
   .navbar-toggle {
     background: $primary;
-    border-color: $dark;
+    border-color: transparent;
     transition: ease 0.4s;
     .icon-bar {
       background: $background-color;
@@ -399,7 +399,7 @@ footer {
     input.button:hover {
       background-color: $secondary;
     }
-  } 
+  }
 }
 /* ==================================
             Cheat codes!

@@ -154,7 +154,7 @@ article {
 
 .navbar-default .navbar-toggle {
   background: #00A0B0;
-  border-color: #0B486B;
+  border-color: transparent;
   transition: ease 0.4s;
 }
 
