@@ -1,0 +1,487 @@
+/* ==================================
+              Elements
+===================================== */
+html,
+body {
+  background-color: #f1f1f1;
+  height: 100% !important;
+  font-size: 14px;
+  color: #0B486B;
+}
+
+body {
+  padding-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #00A0B0;
+  font-family: "Oswald";
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  font-size: 1em;
+}
+
+a {
+  color: #EB6841;
+}
+
+a:hover {
+  color: #EB6841;
+  text-decoration: underline;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-color: #888;
+}
+
+article {
+  columns: 2;
+  margin-bottom: 30px;
+}
+
+/* ==================================
+              Classes
+===================================== */
+.spacer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80px;
+  border-top: 3px solid #00A0B0;
+}
+
+.spacer-left {
+  margin-left: 0px;
+}
+
+.spacer-right {
+  margin-right: 0px;
+}
+
+.restaurant-logos {
+  max-width: 200px;
+}
+
+.light {
+  color: #999;
+}
+
+.wide-gutter {
+  column-gap: 50px;
+}
+
+.img-thumbnail {
+  background: #f1f1f1;
+  border-color: #EDC951;
+  margin-bottom: 30px;
+}
+
+.btn-special {
+  background-color: #00A0B0;
+  color: #f1f1f1;
+  transition: 0.4s ease;
+}
+
+.btn-special:hover {
+  background-color: #EDC951;
+  color: #f1f1f1;
+}
+
+/* ==================================
+              Navbar
+===================================== */
+.navbar {
+  margin-bottom: 0;
+  font-family: "Oswald";
+}
+
+.navbar-default {
+  background-color: #f1f1f1;
+  border-bottom: 0;
+}
+
+.navbar-default .navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #00A0B0;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #EDC951;
+}
+
+.navbar-default .navbar-nav {
+  margin-right: 0;
+}
+
+.navbar-default .navbar-nav li a {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #00A0B0;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  background: #EDC951;
+  color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+  background: #00A0B0;
+  border-color: #0B486B;
+  transition: ease 0.4s;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background: #f1f1f1;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background: #0B486B;
+}
+
+.sudo-border {
+  margin-top: 0;
+  border-top: 3px solid #EDC951;
+  margin-bottom: 0;
+}
+
+/* ==================================
+         Home page specifics
+===================================== */
+.splash-landing {
+  background: url("../images/hero3.jpg") center center;
+  background-size: cover;
+  color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.splash-landing .lead {
+  margin: 0;
+  padding-top: 17%;
+  padding-bottom: 17%;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-shadow: 0 1px 15px rgba(255, 255, 255, 0.75);
+  font-family: Pacifico;
+  font-size: 4.5rem;
+  color: #0B486B;
+  text-transform: initial !important;
+}
+
+.more-info-links {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.more-info-links li {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.more-info-links li a {
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
+/* ==================================
+      A nicely spaced section
+===================================== */
+.ply {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+/* ==================================
+      Secondary Menu & Restaurants
+===================================== */
+.secondary-menu,
+.restaurants,
+.produce {
+  margin-bottom: 30px;
+}
+
+.secondary-menu a,
+.secondary-menu p,
+.restaurants a,
+.restaurants p,
+.produce a,
+.produce p {
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 1px;
+  color: #fff;
+  transition: ease 0.5s;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.55);
+}
+
+.secondary-menu a {
+  font-size: 2em;
+  padding-top: 30%;
+  padding-bottom: 30%;
+}
+
+.secondary-menu a:hover {
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.secondary-menu-bottom a {
+  font-size: 1.75em;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.restaurants p {
+  font-size: 1.6em;
+  padding-top: 17.5%;
+  padding-bottom: 17.5%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.restaurants p:hover {
+  background: none;
+}
+
+.produce p {
+  font-size: 2.4em;
+  padding-top: 30%;
+  padding-bottom: 30%;
+}
+
+.produce p:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.sm_1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.25) 100%), url("/images/chicks.jpg") center center;
+  background-size: cover;
+}
+
+.sm_2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.25) 100%), url("/images/ducks.jpg") center center;
+  background-size: cover;
+}
+
+.sm_3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.25) 100%), url("/images/geese.jpg") center center;
+  background-size: cover;
+}
+
+.sm_4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.25) 100%), url("/images/order.jpg") center center;
+  background-size: cover;
+}
+
+.r_1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.25) 100%), url("/images/campagne-photo.jpg") center center;
+  background-size: cover;
+}
+
+.r_2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.25) 100%), url("/images/restaurant-pg.jpg") center center;
+  background-size: cover;
+}
+
+.r_3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.25) 100%), url("/images/dunbrody-house.jpg") center center;
+  background-size: cover;
+}
+
+.r_4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.25) 100%), url("/images/waterford-castle.jpg") center center;
+  background-size: cover;
+}
+
+.r_5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.25) 100%), url("/images/aldridge-lodge.jpg") center center;
+  background-size: cover;
+}
+
+.r_6 {
+  background: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.25) 100%), url("/images/ballyfin-demesne.jpg") center center;
+  background-size: cover;
+}
+
+.r_7 {
+  background: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.25) 100%), url("/images/chapter-one.jpg") center center;
+  background-size: cover;
+}
+
+.r_8 {
+  background: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.25) 100%), url("/images/thorntons.jpg") center center;
+  background-size: cover;
+}
+
+.r_9 {
+  background: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.25) 100%), url("/images/zuni.jpg") center center;
+  background-size: cover;
+}
+
+.p_1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.25) 100%), url("/images/ducks.jpg") center center;
+  background-size: cover;
+}
+
+.p_2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.25) 100%), url("/images/geese.jpg") center center;
+  background-size: cover;
+}
+
+/* ==================================
+              Footer
+===================================== */
+footer {
+  padding-bottom: 70px;
+}
+
+footer #mc_embed_signup form {
+  margin: 0;
+  padding: 0;
+}
+
+footer #mc_embed_signup_scroll input.email,
+footer #mc_embed_signup_scroll input.button {
+  display: inline-block;
+}
+
+footer #mc_embed_signup_scroll input.email {
+  border: 1px solid #542437;
+  background: #f1f1f1;
+  height: 3.5em;
+  border-radius: 4px;
+}
+
+footer #mc_embed_signup_scroll input.email::-webkit-input-placeholder {
+  color: #00A0B0;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+footer #mc_embed_signup_scroll input.button {
+  background-color: #00A0B0;
+  width: auto;
+  height: auto;
+  padding: 8px 20px;
+  transition: 0.4s ease;
+  font-weight: normal;
+}
+
+footer #mc_embed_signup_scroll input.button:hover {
+  background-color: #EDC951;
+}
+
+/* ==================================
+            Cheat codes!
+===================================== */
+.light-grey-background {
+  background: #f1f1f1;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.no-margin-top {
+  margin-top: 0;
+}
+
+.margin-t-b-50 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.width-hundred {
+  max-width: 100%;
+}
+
+.width-ninety {
+  max-width: 90%;
+}
+
+.width-eighty {
+  max-width: 80%;
+}
+
+/* ==================================
+          Five column layout
+===================================== */
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.col-xs-5ths {
+  width: 20%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .col-sm-5ths {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-5ths {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-5ths {
+    width: 20%;
+    float: left;
+  }
+}
+
+/* ==================================
+            Media queries
+===================================== */
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 50px;
+  }
+  .navbar-default .navbar-brand {
+    padding-top: 15px;
+    font-size: 1.5rem;
+  }
+  .splash-landing .lead {
+    font-size: 2.5em;
+    padding-top: 20%;
+    padding-bottom: 30%;
+  }
+  .secondary-menu a {
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+  #mc_embed_signup_scroll input.email,
+  #mc_embed_signup_scroll input.button {
+    display: block;
+    margin: 10px auto;
+  }
+}

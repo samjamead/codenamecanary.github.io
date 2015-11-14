@@ -1,2 +1,2 @@
-# codenamecanary.github.io
-Highlighting the issue of marine pollution
+# Canary
+Canary is a startup weekend project.   
