@@ -52,6 +52,17 @@ article {
 /* ==================================
               Classes
 ===================================== */
+.hero-logo {
+  max-height: 100px;
+}
+
+.hero {
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.15);
+  font-size: 4.5rem;
+}
+
 .spacer {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -205,6 +216,60 @@ article {
 .ply {
   padding-top: 70px;
   padding-bottom: 70px;
+}
+
+.ply-inverse {
+  background: #00A0B0;
+  color: #f1f1f1;
+}
+
+.ply-inverse h2 {
+  color: #EDC951;
+}
+
+.ply-inverse .form-holder {
+  max-width: 65%;
+  margin: 0px auto;
+}
+
+.ply-inverse #mc_embed_signup form {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.ply-inverse #mc_embed_signup_scroll input.email,
+.ply-inverse #mc_embed_signup_scroll input.button {
+  display: inline-block;
+}
+
+.ply-inverse #mc_embed_signup_scroll input.email {
+  border: 2px solid #EDC951;
+  background: #00A0B0;
+  height: 3.5em;
+  border-radius: 4px;
+}
+
+.ply-inverse #mc_embed_signup_scroll input.email::-webkit-input-placeholder {
+  color: #f1f1f1;
+  margin-left: 35px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.ply-inverse #mc_embed_signup_scroll input.button {
+  background-color: #f1f1f1;
+  color: #00A0B0;
+  width: auto;
+  height: auto;
+  padding: 8px 20px;
+  transition: 0.4s ease;
+  font-weight: normal;
+}
+
+.ply-inverse #mc_embed_signup_scroll input.button:hover {
+  background-color: #EDC951;
 }
 
 /* ==================================
@@ -401,6 +466,10 @@ footer #mc_embed_signup_scroll input.button:hover {
 
 .no-margin-top {
   margin-top: 0;
+}
+
+.margin-top-30 {
+  margin-top: 30px;
 }
 
 .margin-t-b-50 {
