@@ -1,5 +1,3 @@
-// Kilkenny Free Range scripts and functions
-
 $(function(){
   $("#page_header").load("/includes/header.html");
 });
