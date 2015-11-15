@@ -51,6 +51,9 @@ article {
   columns: 2;
   margin-bottom: 30px;
 }
+blockquote {
+  border-left: 5px solid $secondary;
+}
 /* ==================================
               Classes
 ===================================== */
