@@ -421,6 +421,19 @@ footer {
   padding-bottom: 70px;
 }
 
+footer .footer-icons li {
+  margin-right: 20px;
+}
+
+footer .footer-icons li a {
+  color: #00A0B0;
+  transition: ease 0.4s;
+}
+
+footer .footer-icons li a:hover {
+  color: #EDC951;
+}
+
 footer #mc_embed_signup form {
   margin: 0;
   padding: 0;

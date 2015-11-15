@@ -369,6 +369,18 @@ blockquote {
 ===================================== */
 footer {
   padding-bottom: 70px;
+  .footer-icons {
+    li {
+      margin-right: 20px;
+      a {
+        color: $primary;
+        transition: ease 0.4s;
+      }
+      a:hover {
+        color: $secondary;
+      }
+    }
+  }
   #mc_embed_signup {
     form {
       margin: 0;
