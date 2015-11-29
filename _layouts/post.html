@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="ply">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-offset-1 col-sm-10">
+        <h2>{{ page.title }}</h2>
+        <ul class="list-inline">
+          <li>{{ page.date | date: "%b %-d, %Y" }}</li>
+          <li>//</li>
+          <li>By {{ page.author }}</li>
+        </ul>
+        <hr />
+        <div class="row">
+          <div class="col-sm-6">
+            <img src='/img/{{ page.image }}' alt="{{ page.title }}" />
+            <p class="small">{{ page.caption }}</p>
+          </div>
+          <div class="col-sm-6">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

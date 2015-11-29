@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<div class="ply ply-inverse text-center">
+  <h1>We don't like pollution</h1>
+  <hr class="spacer spacer-canary">
+  <p class="lead">About us and our mission.</p>
+</div>
+
+<div class="ply">
+  <div class="container">
+    <div class="row">
+
+      <!-- =============================
+               LEFT HAND SIDE
+      ============================== -->
+
+      <div class="col-sm-4">
+        <div class="list-group sidenav about-sidenav">
+          {% for page in site.pages %}
+            {% if page.submenu == 'about' %}
+              <a class="list-group-item" href="{{ page.url | prepend: site.baseurl }}">
+                <h4>{{ page.title }} <i class="fa fa-chevron-right"></i></h4>
+              </a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+
+      <!-- =============================
+               RIGHT HAND SIDE
+      ============================== -->
+
+      <div class="col-sm-8" id="about-content">
+
+        <h2>{{ page.heading }}</h2>
+
+        <hr class="spacer spacer-left more-space" />
+
+        {% case page.specifically %}
+          {% when 'mission' %}
+            <blockquote>
+              {{ page.mission }}
+            </blockquote>
+          {% when 'team' %}
+            <img src="/img/team.jpg" alt="The Codename Canry Team Photo" />
+          {% else %}
+            <script src="http://snapwidget.com/js/snapwidget.js"></script>
+            <iframe src="http://snapwidget.com/p/widget/?id=qQwG3oXNNn&t=221" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+            <br />
+            <br />
+        {% endcase %}
+
+        {{ content }}
+
+      </div>
+
+    </div> <!-- Main row -->
+  </div> <!-- Main container -->
+</div>

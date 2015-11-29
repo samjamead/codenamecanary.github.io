@@ -1,0 +1,390 @@
+/* ==================================
+              Elements
+===================================== */
+html,
+body {
+  background-color: #f1f1f1;
+  height: 100% !important;
+  font-size: 15px;
+  color: #0b486b; }
+
+body {
+  padding-top: 73px; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #00a0b0;
+  font-family: "Oswald";
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 2.5rem; }
+
+p {
+  line-height: 1.7;
+  margin-bottom: 1.6em;
+  font-size: 1rem; }
+
+a {
+  color: #48b000; }
+
+a:hover {
+  color: #48b000;
+  text-decoration: underline; }
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-color: #888; }
+
+article {
+  columns: 2;
+  margin-bottom: 30px; }
+
+blockquote {
+  border-left: 5px solid #edc951;
+  font-style: italic;
+  font-weight: 400;
+  margin-top: 25px;
+  margin-bottom: 25px; }
+  blockquote small,
+  blockquote footer,
+  blockquote .small {
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 30px; }
+
+img {
+  max-width: 100%; }
+
+/* ==================================
+              Classes
+===================================== */
+.sudo-border {
+  margin-top: 0;
+  border-top: 3px solid #edc951;
+  margin-bottom: 0; }
+
+.hero-logo {
+  max-height: 100px; }
+
+.hero-heading {
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.15);
+  font-size: 4.5rem; }
+
+hr.secondary {
+  border-color: #edc951; }
+
+img.hr-canary {
+  margin-top: 15px;
+  max-width: 30px; }
+
+.spacer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80px;
+  border-top: 3px solid #00a0b0; }
+
+.spacer-canary {
+  border-color: #edc951; }
+
+.spacer-left {
+  margin-left: 0px; }
+
+.spacer-right {
+  margin-right: 0px; }
+
+.more-space {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+.img-thumbnail {
+  background: #f1f1f1;
+  border-color: #edc951;
+  margin-bottom: 30px; }
+
+img.screenshot {
+  width: 70%;
+  margin: 0 15% 15% 15%; }
+
+.btn-special {
+  background-color: #00a0b0;
+  color: #f1f1f1;
+  transition: 0.4s ease; }
+
+.btn-special:hover {
+  background-color: #edc951;
+  color: #f1f1f1; }
+
+/* ==================================
+              Navbar
+===================================== */
+.navbar {
+  margin-bottom: 0;
+  font-family: "Oswald"; }
+
+.navbar-default {
+  background-color: rgba(240, 240, 240, 0.9);
+  border-bottom: 3px solid #edc951; }
+  .navbar-default .navbar-brand {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #00a0b0;
+    transition: 0.4s ease; }
+  .navbar-default .navbar-brand:hover {
+    color: #edc951; }
+  .navbar-default .navbar-nav {
+    margin-right: 0; }
+    .navbar-default .navbar-nav li a {
+      text-transform: uppercase;
+      font-size: 1.5em;
+      color: #00a0b0;
+      font-weight: 500;
+      letter-spacing: 1px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      transition: 0.4s ease; }
+    .navbar-default .navbar-nav li a:hover {
+      background: #edc951;
+      color: #fff; }
+  .navbar-default .navbar-toggle {
+    background: #00a0b0;
+    border-color: transparent;
+    transition: ease 0.4s; }
+    .navbar-default .navbar-toggle .icon-bar {
+      background: #f1f1f1; }
+  .navbar-default .navbar-toggle:hover {
+    background: #0b486b; }
+
+/* ==================================
+         Home page specifics
+===================================== */
+#hero {
+  background: linear-gradient(rgba(0, 160, 176, 0.8) 0%, rgba(0, 160, 176, 0.8) 100%), url("/img/hero.jpg") bottom center;
+  background-size: cover; }
+  #hero h1 {
+    color: #edc951; }
+  #hero .hero-subheading {
+    text-shadow: 0 1px 15px rgba(255, 255, 255, 0.75);
+    font-weight: bold;
+    font-size: 1.75rem; }
+  #hero .ply-inverse {
+    background: transparent; }
+
+/* ===========================================
+      A nicely spaced, full-width section
+    (inverse doubles as a nice CTA callout)
+============================================== */
+.ply {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
+.ply-secondary {
+  background: #edc951; }
+
+.ply-inverse {
+  background: #00a0b0;
+  color: #f1f1f1; }
+  .ply-inverse h1,
+  .ply-inverse h2,
+  .ply-inverse h3,
+  .ply-inverse h4 {
+    color: #edc951; }
+  .ply-inverse .form-holder {
+    max-width: 65%;
+    margin: 0px auto; }
+  .ply-inverse #mc_embed_signup form {
+    text-align: center;
+    margin: 0;
+    padding: 0; }
+  .ply-inverse #mc_embed_signup_scroll input.email,
+  .ply-inverse #mc_embed_signup_scroll input.button {
+    display: inline-block; }
+  .ply-inverse #mc_embed_signup_scroll input.email {
+    border: 2px solid #edc951;
+    background: #00a0b0;
+    height: 3.5em;
+    border-radius: 4px; }
+  .ply-inverse #mc_embed_signup_scroll input.email::-webkit-input-placeholder {
+    color: #f1f1f1;
+    margin-left: 35px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+  .ply-inverse #mc_embed_signup_scroll input.button {
+    background-color: #edc951;
+    color: #00a0b0;
+    width: auto;
+    height: auto;
+    padding: 8px 20px;
+    transition: 0.4s ease;
+    font-weight: 500;
+    letter-spacing: 1px; }
+  .ply-inverse #mc_embed_signup_scroll input.button:hover {
+    background-color: #f4df96; }
+
+/* ==================================
+    About & Donate Pages Specifics
+===================================== */
+.sidenav .list-group-item {
+  width: 90%;
+  transition: 0.2s ease;
+  border-color: #f1f1f1;
+  border-radius: 0; }
+  .sidenav .list-group-item h4 {
+    transition: 0.3s ease; }
+  .sidenav .list-group-item i {
+    float: right;
+    margin-right: 2%;
+    transition: 0.3s ease; }
+.sidenav .list-group-item:hover i {
+  margin-right: 0; }
+
+.about-sidenav .list-group-item {
+  background: #edc951; }
+.about-sidenav .list-group-item:hover {
+  background: #edc951; }
+  .about-sidenav .list-group-item:hover h4 {
+    color: #0b486b; }
+    .about-sidenav .list-group-item:hover h4 i {
+      color: #00a0b0; }
+
+.donate-sidenav .list-group-item {
+  background: #00a0b0; }
+  .donate-sidenav .list-group-item h4 {
+    color: #edc951; }
+.donate-sidenav .list-group-item:hover {
+  background: #00a0b0; }
+  .donate-sidenav .list-group-item:hover h4 {
+    color: #0b486b; }
+    .donate-sidenav .list-group-item:hover h4 i {
+      color: #edc951; }
+
+#about-content h2:first-child,
+#donate-content h2:first-child {
+  margin-top: 0; }
+
+#about-content li {
+  max-width: 75%;
+  margin-top: 15px;
+  font-weight: 500; }
+
+.support-list i,
+.support-list img {
+  float: left;
+  margin: 8px 25px 15px 10px;
+  max-width: 200px; }
+.support-list p {
+  overflow: hidden; }
+
+/* ==================================
+           Stats & Maps
+===================================== */
+.stats-list {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .stats-list li {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+#environmental-agencies .nav-tabs {
+  border-bottom: 0; }
+#environmental-agencies .btn-special {
+  margin: 20px auto;
+  border-radius: 0;
+  padding: 10px 20px;
+  background: transparent;
+  border: 2px solid #00a0b0;
+  color: #0b486b;
+  font-weight: 500; }
+#environmental-agencies .btn-special:hover {
+  background: rgba(0, 160, 176, 0.2); }
+#environmental-agencies .dropdown-menu {
+  min-width: 300px;
+  margin-top: -15px; }
+  #environmental-agencies .dropdown-menu li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #0b486b; }
+  #environmental-agencies .dropdown-menu li a:hover {
+    background-color: #edc951; }
+  #environmental-agencies .dropdown-menu li.active a {
+    background-color: #edc951;
+    color: #0b486b; }
+
+/* ==================================
+              Footer
+===================================== */
+footer {
+  padding-bottom: 70px; }
+  footer .footer-icons li {
+    margin-right: 20px; }
+    footer .footer-icons li a {
+      color: #00a0b0;
+      transition: ease 0.4s; }
+    footer .footer-icons li a:hover {
+      color: #edc951; }
+
+/* ==================================
+            Cheat codes!
+===================================== */
+.no-margin {
+  margin: 0; }
+
+.no-margin-top {
+  margin-top: 0; }
+
+.margin-top-5 {
+  margin-top: 5px; }
+
+.margin-top-30 {
+  margin-top: 30px; }
+
+.margin-bottom-30 {
+  margin-bottom: 30px; }
+
+.margin-t-b-50 {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.width-hundred {
+  max-width: 100%; }
+
+.width-ninety {
+  max-width: 90%; }
+
+.width-eighty {
+  max-width: 80%; }
+
+/* ==================================
+            Media queries
+===================================== */
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 50px; }
+
+  .navbar-default .navbar-brand {
+    padding-top: 15px;
+    font-size: 1.5rem; }
+
+  #hero {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+
+  h1.hero-heading {
+    font-size: 2.5rem; }
+
+  #cta_ply {
+    padding: 50px 25px; }
+    #cta_ply .form-holder {
+      max-width: 100%; }
+
+  #mc_embed_signup_scroll input.email,
+  #mc_embed_signup_scroll input.button {
+    display: block;
+    width: 100% !important;
+    margin: 10px auto; } }

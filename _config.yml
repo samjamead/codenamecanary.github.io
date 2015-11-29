@@ -1,0 +1,28 @@
+# Site settings
+title: Codename Canary
+email: samjamead@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  We don't like pollution. Pollution is a global issue. It's dangerous and annoying.
+  We're here to help you put an end to it.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://codenamecanary.org" # the base hostname & protocol for your site
+twitter_username: codename_canary
+member_total: 153
+total_uploads: 61
+number_donations: 23
+funds_raised: 480
+partnerships: 2
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Defaults
+defaults:
+ -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+     author: Sam Mead
+     layout: "post"

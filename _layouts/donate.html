@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="ply ply-secondary text-center">
+  <h1>Donate to Codename Canary</h1>
+  <hr class="spacer">
+  <p class="lead">Help us clean up the planet!</p>
+</div>
+
+<div class="ply">
+  <div class="container">
+    <div class="row">
+
+      <!-- =============================
+               LEFT HAND SIDE
+      ============================== -->
+
+      <div class="col-sm-4">
+        <div class="list-group sidenav donate-sidenav">
+          {% for page in site.pages %}
+            {% if page.submenu == 'donate' %}
+              <a class="list-group-item" href="{{ page.url | prepend: site.baseurl }}">
+                <h4>{{ page.title }} <i class="fa fa-chevron-right"></i></h4>
+              </a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+
+      <!-- =============================
+               RIGHT HAND SIDE
+      ============================== -->
+
+      <div class="col-sm-8" id="donate-content">
+
+        <h2>{{ page.heading }}</h2>
+
+        <hr class="spacer spacer-left more-space" />
+
+        {{ content }}
+
+      </div>
+
+    </div> <!-- Main row -->
+  </div> <!-- Main container -->
+</div>

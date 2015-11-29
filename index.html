@@ -1,116 +1,127 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Codename Canary is fixing pollution one hashtag at a time!">
-    <meta name="author" content="samjamead@gmail.com">
-
-    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" href="/css/bootstrap.css">
-    <link rel="stylesheet" href="/css/style.css">
-
-    <script src="/js/jquery-2.1.4.min.js"></script>
-
-    <meta property="og:title" content="Codename Canary">
-    <meta property="og:image" content="/images/tagline.png">
-    <meta property="og:description" content="Codename Canary is fixing pollution one hashtag at a time!">
-
-    <title>Codename Canary</title>
-
-    <script type="text/javascript">
-      window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var n=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(n?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(a,o);for(var r=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["clearEventProperties","identify","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=r(p[c])};
-      heap.load("1334609444");
-    </script>
-
-  </head>
-
-  <body>
-
-    <div id="page_header">
-      <!-- The menu should load here! -->
-    </div>
-
-    <div class="ply">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-offset-2 col-sm-8 text-center">
-            <img class="hero-logo" src="/images/logo.png" />
-            <h1 class="hero">We don't like pollution</h1>
-            <hr class="spacer">
-            <p class="lead">Pollution is a global issue. It's dangerous and annoying.<br /> We're here to help <strong>you</strong> put an end to it.</p>
-            <br />
-            <br />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="ply ply-inverse text-center">
-              <!-- Begin MailChimp Signup Form -->
-              <p class="lead">Leave your email to join the Codename Canary movement:</p>
-              <br />
-              <div class="form-holder">
-                <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
-                <div id="mc_embed_signup">
-                  <form action="//github.us12.list-manage.com/subscribe/post?u=e95aa0bf832052d92d1a80871&amp;id=42f96aaa99" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                      <div id="mc_embed_signup_scroll">
-
-                  	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder=" Enter email" required>
-                      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                      <div style="position: absolute; left: -5000px;"><input type="text" name="b_e95aa0bf832052d92d1a80871_42f96aaa99" tabindex="-1" value=""></div>
-                      <div class="clear"><input type="submit" value="SUBMIT" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                      </div>
-                  </form>
-                </div>
-              </div>
-              <br />
-              <h2>139 Members strong and counting</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-8 margin-top-30">
-            <br />
-            <h2>What the heck is Codename Canary?!</h2>
-            <hr class="spacer spacer-left">
-            <p>We're a not-for-profit organisation inspiring the world to prevent pollution. Pollution is an issue adversely affecting an ever increasing number of lives around the world. By being part of the Codename Canary community, you can help us make a change by raising awareness and improving those lives already affected by pollution. Here's how it works:</p>
-            <ul>
-              <li>When you spot pollution, snap a picture on your phone.</li>
-              <li>Upload the photo to Instagram with #canarytrash.</li>
-              <li>Your image appears here on the Codename Canary website alongside the entire community's photos.</li>
-              <li>We collate the data and use it to lobby changemakers to solve the global pollution issue.</li>
-            </ul>
-            <br />
-            <p>Want more info? <a href="/about/">Read about how uploading a photo to Instagram helps reduce pollution!</a></p>
-            <p class="lead">Here's everyone highlighting pollution via #canarytrash :&mdash;</p>
-            <br />
-            <br />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12">
-            <!-- SnapWidget -->
-            <script src="http://snapwidget.com/js/snapwidget.js"></script>
-            <iframe src="http://snapwidget.com/p/widget/?id=MqTfR1xpi6&t=662" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
-          </div>
-        </div>
+<div class="ply" id="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-1 col-lg-offset-2 col-md-10 col-lg-8 text-center">
+        <img class="hero-logo" src="/img/logo-hero.png" />
+        <h1 class="hero-heading">We don't like pollution</h1>
+        <hr class="spacer">
+        <p class="lead no-margin hero-subheading">Pollution is a global issue.<br class="visible-xs" /> It's dangerous and annoying.<br /> We're here to help you put an end to it.</p>
       </div>
     </div>
+  </div>
+  {% include cta.html %}
+</div>
 
-    <div id="page_footer">
-      <!-- The footer loads here via JS -->
+
+
+<div class="ply">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+
+        <!-- SnapWidget -->
+        <script src="http://snapwidget.com/js/snapwidget.js"></script>
+        <iframe src="http://snapwidget.com/p/widget/?id=pE03ev0oX1&t=546" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+
+      </div>
     </div>
+  </div>
+</div>
 
-  </body>
+{% include seperator.html %}
 
-  <!-- JavaScript -->
-  <script src="/js/bootstrap.js"></script>
-  <script src="/js/scripts.js"></script>
+<div class="ply">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-offset-1 col-md-offset-2 col-sm-10 col-md-8">
+        <div class="text-center">
+          <h2>What the heck is Codename Canary?!</h2>
+          <hr class="spacer more-space">
+          <p class="lead">A movement to keep the planet clean.</p>
+          <br />
+        </div>
+        <p>Codename Canary is a platform dedicated to getting anyone and everyone involved and invested in making the Earth a pollution free planet.</p>
+        <blockquote>
+          "The helplessness I feel when I'm walking along a beach that's covered in plastic bottles, fishing line, and cigarette butts inspired me to help the thousands of others who are also feeling helpless do something about it."
+          <small> Ben Plunkett, Codename Canary Founder</small>
+        </blockquote>
+        <p>Codename Canary uses photos uploaded to Instagram to track pollution in the form of <strong>litter</strong>, <strong>garbage</strong>, <strong>trash</strong> and other general waste.</p>
+        <p>Through proud individuals around the world posting photos of trash on Instagram, we know where this pollution is coming from, where it's going, and where it ends up. From there we use this information to do something about it: by educating ignorant offenders, lobbying policymakers around the globe, and changing cultural attitudes towards disposing of waste products.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="ply ply-secondary">
+  <div class="container">
+    <div class="row">
+      <div class="text-center">
+        <h2>Here's how it works:</h2>
+        <hr class="spacer more-space">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-offset-1 col-sm-5">
+        <h3>1. Snap a photo</h3>
+        <p>When you spot pollution, whether it's trash, garbage, litter, or just general waste, grab a photo with your phone.</p>
 
+        <h3>2. Upload to Instagram with #canarytrash</h3>
+        <p>Choose a sweet filter, and upload the photo to Instagram with #canarytrash. For bonus points, include a load of hashtags to classify the trash, for example #cokebottle.</p>
 
-</html>
+        <h3>3. We'll see it</h3>
+        <p>Your image <a href="#">appears on this map</a> on the Codename Canary website, alongside the entire community's photos.</p>
+
+        <h3>4. We'll do something about it!</h3>
+        <p>All the data we analyse from the photos you upload helps us choose what the best course of action is.</p>
+        <p>From educating school kids in Indonesia on what happens to plastic that's thrown in the sea,  to lobbying policymakers in the Phillipines to curb illegal dumping, your photos give us the data we need take action! </p>
+        <p class="margin-bottom-30">For example, if there's a large scale pollution event in a local park, we can contact the folks who'll come and clean it up. If there's litter washing up on a beach, we can trace where it's come from and cut it off at the source. <strong>With your help, we can start to reverse the trend of pollution in the natural environment!</strong></p>
+      </div>
+      <div class="col-sm-6">
+        <img class="screenshot" src="img/iphoneInstagram.png" alt="Codename Canary on Instagram" />
+      </div>
+    </div>
+  </div>
+</div>
+<div class="ply">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="text-center">
+          <h2>Explore #canarytrash on Instagram</h2>
+          <hr class="spacer more-space">
+          <p class="lead margin-bottom-30">Thanks to all these photos, we're cleaning up the planet!</p>
+          <p class="margin-bottom-30">Got an image you'd like to see shared here?! <strong>Just upload your photo to Instagram, tag the location, and add the hashtag #canarytrash!</strong> Easy.</p>
+        </div>
+        <!-- SnapWidget -->
+        <iframe src="http://snapwidget.com/p/widget/?id=MqTfR1xpi6&t=662" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include seperator.html %}
+
+<div class="ply">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>Latest posts from Trashasaurus Rex</h2>
+        <p class="lead">The official Codename Canary blog!</p>
+        <hr class="spacer spacer-left more-space">
+        {% for post in site.posts %}
+          <div class="row">
+            <div class="col-sm-2">
+              <h4>{{ post.date | date: "%b %-d, %Y" }}</h4>
+            </div>
+            <div class="col-sm-8">
+              <p class="lead"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

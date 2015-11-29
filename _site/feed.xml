@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Codename Canary</title>
+    <description>We don&#39;t like pollution. Pollution is a global issue. It&#39;s dangerous and annoying. We&#39;re here to help you put an end to it.
+</description>
+    <link>http://codenamecanary.org/</link>
+    <atom:link href="http://codenamecanary.org/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 30 Nov 2015 02:40:46 +0800</pubDate>
+    <lastBuildDate>Mon, 30 Nov 2015 02:40:46 +0800</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>The fifty&#39;s up!</title>
+        <description>&lt;p&gt;Little over a week since we launched Codename Canary at Startup Weekend, we’re stoked to tell you all that we’ve had over 50 uploads to Instagram with the hashtag #canarytrash! We don’t like to toot our own horns, but ‘beep beep’.&lt;/p&gt;
+
+&lt;p&gt;It’s great to knock over an early milestone so now it’s time to get our heads back down and push on to the next goal… Which is 500 post by Christmas! Difficult? Yes? Achievable? Absolutely!&lt;/p&gt;
+
+&lt;p&gt;Check out all the &lt;a href=&quot;https://www.instagram.com/explore/tags/canarytrash/&quot;&gt;#canarytrash uploads on Instagram&lt;/a&gt;, but more importantly, get your photos of litter, trash, and pollution up on Instagram asap!&lt;/p&gt;
+
+&lt;p&gt;Cheers,
+Sam&lt;/p&gt;
+</description>
+        <pubDate>Fri, 27 Nov 2015 21:37:41 +0800</pubDate>
+        <link>http://codenamecanary.org/blog/fiftyup/</link>
+        <guid isPermaLink="true">http://codenamecanary.org/blog/fiftyup/</guid>
+        
+        
+        <category>canary</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Silver medal at Startup Weekend Perth 7!</title>
+        <description>&lt;p&gt;The Codename Canary team was totally stoked to end up in second place at the seventh Startup Weekend Perth!&lt;/p&gt;
+
+&lt;p&gt;Having spent 48 hours locked up on Level 9 at Spacecubed, Ben got up to pitch again, a little more prepared but probably also a little bit more nervous than he had been on Friday night when he pitched the idea for Codename Canary for the first time.&lt;/p&gt;
+
+&lt;p&gt;Queue technical failure… We were the 7th team to pitch but the first after dinner during which time the batteries for the slideshow clicker died! Not idea but Ben handled it like a champ and delivered one of the better pitches of the evening. Sam got a bit carried away during Q&amp;amp;A but it didn’t seem to harm our chances too much as we ended up in second place overall!&lt;/p&gt;
+
+&lt;p&gt;From the official Startup News recap of the event:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Once more the horde of eager entrepreneurs gathered in the town hall at Spacecubed, and prepared to spend a weekend building dreams. […] My verdict on the weekend: great job by most of the teams. […] [The judges] had a hard time sorting out the winners, hence the honourable mention.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We’ve started off at a bit of a sprint but it doesn’t look like we’ll be slowing down any time soon!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Nov 2015 21:37:41 +0800</pubDate>
+        <link>http://codenamecanary.org/blog/startupweekend/</link>
+        <guid isPermaLink="true">http://codenamecanary.org/blog/startupweekend/</guid>
+        
+        
+        <category>canary</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
