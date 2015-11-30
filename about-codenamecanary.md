@@ -32,4 +32,4 @@ By collating these images we are acquiring:
 
 <br />
 
-<p class="lead" markdown="1">You can help us achieve these aims in a [number of different ways](/donate/support/), but primarily, by uploading your pictures of trash, litter and pollution to Instagram with the hashtag **#canarytrash!**</p>
+<p class="lead">You can help us achieve these aims in a <a href="/donate/support/">number of different ways</a>, but primarily, by uploading your pictures of trash, litter and pollution to Instagram with the hashtag <strong>#canarytrash!</strong></p>
