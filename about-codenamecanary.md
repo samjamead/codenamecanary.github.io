@@ -31,4 +31,5 @@ By collating these images we are acquiring:
 + Material we can use to educate communities on how to better deal with their waste and plan for the future.
 
 <br />
+
 <p class="lead" markdown="1">You can help us achieve these aims in a [number of different ways](/donate/support/), but primarily, by uploading your pictures of trash, litter and pollution to Instagram with the hashtag **#canarytrash!**</p>
