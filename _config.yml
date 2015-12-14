@@ -1,12 +1,12 @@
 # Site settings
-title: Codename Canary
+title: Snaptrash
 email: samjamead@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   We don't like pollution. Pollution is a global issue. It's dangerous and annoying.
   We're here to help you put an end to it.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://codenamecanary.org" # the base hostname & protocol for your site
-twitter_username: codename_canary
+url: "http://snaptrash.org" # the base hostname & protocol for your site
+twitter_username: snaptrash_au
 member_total: 153
 total_uploads: 61
 number_donations: 23
