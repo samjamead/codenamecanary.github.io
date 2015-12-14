@@ -15,4 +15,4 @@ We're inspired by the work of all the guys over in NSW at Take 3. Here's a bit m
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uzw5Nzr-_2U" frameborder="0" allowfullscreen></iframe>_
 
 <br />
-Remember it's not only donations that support Codename Canary and our partners! You can also get involved and [support us](/donate/support/) in a number of different ways, as well as [taking direct action](/takeaction/) yourself to support the cause.
+Remember it's not only donations that support Snaptrash and our partners! You can also get involved and [support us](/donate/support/) in a number of different ways, as well as [taking direct action](/takeaction/) yourself to support the cause.
